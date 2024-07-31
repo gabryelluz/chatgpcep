@@ -16,6 +16,7 @@ header {
 }
 
 h1 {
+    padding: 10em 5em;
     font-family: 'rosarivo';
     font-size: 30px;
     font-weight: 300;
