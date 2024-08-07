@@ -54,13 +54,10 @@ a:hover {
 }
 
 main {
-    display: flex;
-    align-items: center;
-    justify-items: center;
+    margin: 12% 25%;
 }
 
 .text {
-    margin: 12% 25%;
     text-align: justify;
 }   
 
