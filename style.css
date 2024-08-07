@@ -43,11 +43,14 @@ nav {
 
 a {
     text-decoration: none;
+    padding: .27em 1.2em;
+    border-radius: 4px
 }
 
+
 a:hover {
-    background-color: gray;
-    color: rgb(223, 223, 223);
+    background-color: #d7d7d7;
+    transition: .3s
 }
 
 footer {
@@ -58,6 +61,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    letter-spacing: .45em;
-    font-size: 1.25em;
+    letter-spacing: 1.2em;
+    font-size: 1.2em;
 }
