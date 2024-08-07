@@ -9,6 +9,11 @@ font-family: "Rosarivo"
 * {
     padding: 0;
     margin: 0;
+    color: rgb(61, 28, 28);
+}
+
+body {
+    background-color: rgb(230, 230, 230);
 }
 
 header {
@@ -34,4 +39,8 @@ nav {
     align-items: center;
     text-decoration: none;
     gap: 5em;
+}
+
+a {
+    text-decoration: none;
 }
