@@ -58,6 +58,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    letter-spacing: 1.2em;
-    font-size: 1.2em;
+    letter-spacing: .45em;
+    font-size: 1.25em;
 }
