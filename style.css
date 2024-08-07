@@ -53,6 +53,16 @@ a:hover {
     transition: .3s
 }
 
+main {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#text {
+    margin: 12% 25%;
+}   
+
 footer {
     position: absolute;
     bottom: 0;
