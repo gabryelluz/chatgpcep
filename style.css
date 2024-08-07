@@ -59,7 +59,7 @@ main {
     justify-items: center;
 }
 
-#text {
+.text {
     margin: 12% 25%;
     text-align: justify;
 }   
