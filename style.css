@@ -61,6 +61,7 @@ main {
 
 #text {
     margin: 12% 25%;
+    text-align: justify;
 }   
 
 footer {
