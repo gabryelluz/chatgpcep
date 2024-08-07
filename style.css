@@ -14,6 +14,7 @@ font-family: "montserrat"
 
 body {
     background-color: rgb(230, 230, 230);
+    font-family: 'montserrat';
 }
 
 header {
@@ -22,7 +23,6 @@ header {
 
 h1 {
     padding: 1em 0;
-    font-family: 'montserrat';
     font-size: 30px;
     font-weight: 300;
 }
