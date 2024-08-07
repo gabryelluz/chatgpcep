@@ -45,6 +45,11 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    background-color: gray;
+    color: rgb(223, 223, 223);
+}
+
 footer {
     position: absolute;
     bottom: 0;
