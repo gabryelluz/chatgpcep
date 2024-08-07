@@ -22,7 +22,7 @@ header {
 }
 
 h1 {
-    padding: 1.1em 0 .5em;
+    padding: 1.2em 0 .4em;
     font-size: 30px;
     font-weight: 300;
 }
@@ -61,6 +61,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    letter-spacing: 1.2em;
-    font-size: 1.2em;
+    letter-spacing: .45em;
+    font-size: 1.25em;
 }
