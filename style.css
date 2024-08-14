@@ -81,3 +81,12 @@ footer {
     text-align: justify;
     padding: .5em;
 }
+
+#contato__main {
+    margin: 9% 25%;
+}
+
+.contato__main-text {
+    text-align: justify;
+    padding: .5em;
+}
