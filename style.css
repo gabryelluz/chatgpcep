@@ -41,6 +41,10 @@ nav {
     gap: 5em;
 }
 
+a {
+    text-decoration: none; 
+}
+
 .link {
     text-decoration: none;
     padding: .27em 1.2em;
