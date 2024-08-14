@@ -73,6 +73,11 @@ footer {
     font-size: 1.25em;
 }
 
+#sobrenos__main {
+    margin: 9% 25%;
+}
+
 .sobrenos__main-text {
     text-align: justify;
+    padding: 1em;
 }
