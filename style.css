@@ -22,6 +22,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 1em;
 }
 
 h1 {
@@ -41,16 +42,16 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
     gap: 5em;
 }
 
 a {
     text-decoration: none; 
+    color: rgb(61, 28, 28);
+    font-size: 1.1em;
 }
 
 .link {
-    text-decoration: none;
     padding: .27em 1.2em;
     border-radius: 4px;
 }
@@ -89,17 +90,11 @@ footer {
     margin: 10% 25%;
 }
 
-#menu-btn {
-    display: none;
-    font-size: 2em;
-    background: none;
-    border: none;
-}
-
 /* Responsividade */
 @media screen and (max-width: 768px) {
     header {
         flex-direction: column;
+        padding: 1em;
     }
 
     nav {
@@ -114,19 +109,6 @@ footer {
     footer {
         font-size: 1em;
     }
-
-    #menu-btn {
-        display: block;
-    }
-
-    nav {
-        display: none;
-        flex-direction: column;
-    }
-
-    nav.active {
-        display: flex;
-    }
 }
 
 @media screen and (max-width: 480px) {
@@ -140,9 +122,10 @@ footer {
 
     .link {
         padding: 0.5em 0.8em;
+        font-size: 1em;
     }
 
     footer {
         font-size: 0.9em;
     }
-        }
+    }
