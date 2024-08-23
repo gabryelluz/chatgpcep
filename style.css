@@ -90,3 +90,64 @@ footer {
     text-align: justify;
     padding: .6em;
 }
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    main {
+        margin: 10% 5%;
+    }
+
+    footer {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    nav {
+        gap: 0.5em;
+    }
+
+    .link {
+        padding: 0.5em 0.8em;
+    }
+
+    footer {
+        font-size: 0.9em;
+    }
+}
+
+/* CSS para o menu */
+#menu-btn {
+    display: none;
+    font-size: 2em;
+    background: none;
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    #menu-btn {
+        display: block;
+    }
+
+    nav {
+        display: none;
+        flex-direction: column;
+    }
+
+    nav.active {
+        display: flex;
+    }
+}
